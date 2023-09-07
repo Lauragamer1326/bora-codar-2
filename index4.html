@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polígono</title>
+</head>
+<body>
+    <script>
+        let lado = parseFloat(prompt("Digite um numero"));
+        let medida = parseFloat(prompt("Digite um numero"));
+
+        if(lado==3){
+            document.write("Esse é um triangulo")
+            resultado = medida * 3
+            document.write("O seu perimetro é:" + resultado)
+
+        }else if(lado==4){
+            document.write("Ele é um quadrado!")
+            resultado = medida * medida
+
+        }else if(lado==5){
+            document.write("Ele é um pentagono!")
+
+        }else if(lado<3){
+            domunt.write("NÃO É UM POLIGONO!")
+
+        }else{
+            domunt.write("POLIGONO NÃO IDENTIFICADO")
+        }
+    </script>
+</body>
+</html>
